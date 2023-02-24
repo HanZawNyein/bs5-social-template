@@ -1,0 +1,18 @@
+body{
+    font-family: 'Roboto';
+}
+/* Style the three full height divs */
+.full-height {
+  height: calc(100vh - 56px);
+  /* 56px is the height of the navbar */
+  overflow: hidden;
+}
+
+/* Style the three scrolling divs */
+.scrollable-div {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  padding-right: 30px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+}
